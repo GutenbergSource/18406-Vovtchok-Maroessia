@@ -1,4 +1,16 @@
-<!DOCTYPE TEI.2 PUBLIC "-//TEI//DTD TEI Lite 1.0//EN">
+<!DOCTYPE TEI.2 PUBLIC "-//TEI//DTD TEI Lite 1.0//EN" [
+
+    <!ENTITY apos    CDATA "&#x2019;"  --      77 -->
+    <!ENTITY florin  CDATA "&#x0192;"  --       6 -->
+    <!ENTITY ldquo   CDATA "&#x201C;"  --    1143 -->
+    <!ENTITY lsquo   CDATA "&#x2018;"  --     125 -->
+    <!ENTITY mdash   CDATA "&#x2014;"  --      60 -->
+    <!ENTITY nbsp    CDATA "&#x00A0;"  --       6 -->
+    <!ENTITY ndash   CDATA "&#x2013;"  --       6 -->
+    <!ENTITY rdquo   CDATA "&#x201D;"  --    1027 -->
+    <!ENTITY rsquo   CDATA "&#x2019;"  --     125 -->
+
+]>
 <TEI.2 lang=nl-1900>
 <teiHeader>
 <fileDesc>
@@ -7,7 +19,7 @@
 <author key="Vovtchok, Marko" ref="https://viaf.org/viaf/32150777/">Marko Vovtchok [pseud. van Mariya Oleksandrivna Vilinska, 1833&ndash;1907]</author>
 <respStmt><resp>Editor</resp> <name key="Stahl, P.J." ref="https://viaf.org/viaf/51700032/">P. J. Stahl [pseud. Pierre-Jules Hetzel, 1814&ndash;1886]</name></respStmt>
 <respStmt><resp>Translator</resp> <name key="Slop, A.C." ref="https://viaf.org/viaf/288796422/">A. C. Slop</name></respStmt>
-<respStmt><resp>Illustrator</resp> <name key="Schuler, Théophile" ref="https://viaf.org/viaf/17229379/">Th&eacute;ophile Schuler (1821&ndash;1878)</name></respStmt>
+<respStmt><resp>Illustrator</resp> <name key="Schuler, Théophile" ref="https://viaf.org/viaf/17229379/">Théophile Schuler (1821&ndash;1878)</name></respStmt>
 <respStmt><resp>Transcription</resp> <name key="Hellingman, Jeroen">Jeroen Hellingman</name></respStmt>
 </titleStmt>
 <publicationStmt>
@@ -20,11 +32,16 @@
 <idno type=PGnum>18406</idno>
 <date>2006-05-16</date>
 <availability lang=nl>
-<p>&availability.nl;
+    <p>&availability.nl;
 
-<p lang=en>&availability.en;
+    <p lang=en>&availability.en;
 
-<p>Maroessia, het verhaal van de Oekra&iuml;nse Jeanne d&apos;Arc. Dit oorspronkelijk door Marko Vovtchok (pseudoniem van mevrouw Mariya Oleksandrivna Vilinska, 1833&ndash;1907) op schrift gestelde verhaal werd in 1878 in het Frans vertaald en bewerkt door P.-J. Stahl, (een pseudoniem van de bekende Jules Verne uitgever Pierre-Jules Hetzel, 1814&ndash;1886), en verscheen voor het eerst in het Nederlands in 1880 bij Noordhoff en Smit in Groningen. Dit exemplaar is de uitgave uit 1910, opnieuw bewerkt door A.C. Slop, en verscheen bij Bolle in Rotterdam. De illustraties, van Th&eacute;ophile Schuler (1821&ndash;1878), komen uit de eerste Franse uitgave, en zijn in de typerende stijl uit de tijd.
+    <p>Maroessia, het verhaal van de Oekraïnse Jeanne d&apos;Arc. Dit oorspronkelijk door Marko Vovtchok (pseudoniem van mevrouw Mariya Oleksandrivna Vilinska, 1833&ndash;1907) in het Russisch op schrift gestelde verhaal werd in 1878 in het Frans vertaald en bewerkt door P.-J. Stahl, (een pseudoniem van de bekende Jules Verne uitgever Pierre-Jules Hetzel, 1814&ndash;1886), en verscheen voor het eerst in het Nederlands in 1880 bij Noordhoff en Smit in Groningen. Dit exemplaar is de uitgave uit 1910, opnieuw bewerkt door A. C. Slop, en verscheen bij Bolle in Rotterdam. De illustraties, van Théophile Schuler (1821&ndash;1878), komen uit de eerste Franse uitgave, en zijn in de typerende stijl van de tijd.
+
+<!--
+Oekraïns (1930): https://archive.org/details/tvorymarkavovchk02vovc/page/246/mode/2up
+Russisch (1874): https://archive.org/details/skazkiibyl00vovc/page/n183/mode/2up
+-->
 
 </availability>
 </publicationStmt>
@@ -37,22 +54,27 @@
 </sourceDesc>
 </fileDesc>
 <encodingDesc lang=nl>
-<p>Dit bestand is in de oude spelling. Er is geen poging gedaan de tekst te moderniseren. Afgebroken woorden aan het einde van de regel zijn hersteld.
+    <p>Dit bestand is in de oude spelling. Er is geen poging gedaan de tekst te moderniseren. Afgebroken woorden aan het einde van de regel zijn hersteld.
 
-<p>Hoewel in dit werk laag liggende aanhalingstekens openen worden gebruikt, zijn deze gecodeerd met &ldquo;.
+    <p>Hoewel in dit werk laag liggende aanhalingstekens openen worden gebruikt, zijn deze gecodeerd met &ldquo;.</p>
 
+    <tagsDecl lang=xx>
+        <rendition selector="div.advertisement img">mix-blend-mode: darken;</rendition>
+    </tagsDecl>
 </encodingDesc>
 <profileDesc>
-<langUsage lang=nl>
-    <language id=nl-1900>Nederlands (Spelling De Vries-Te Winkel).</language>
-    <language id=nl>Nederlands.</language>
-    <language id=en>Engels.</language>
-</langUsage>
+    <langUsage lang=nl>
+        <language id=nl-1900>Nederlands (Spelling De Vries-Te Winkel)</language>
+        <language id=nl>Nederlands</language>
+        <language id=en>Engels</language>
+        <language id=xx>Geen taalkundige inhoud</language>
+    </langUsage>
 </profileDesc>
 <revisionDesc>
     <list>
         <item>2006-05-12 Begonnen.
         <item>2010-05-07 Verbeteringen voor ePub.
+        <item>2022-03-12 Hogere resolutie afbeeldingen.
     </list>
 </revisionDesc>
 </teiHeader>
@@ -87,7 +109,7 @@
         Tweede druk
         <lb>Geheel herzien door
         <lb><docAuthor>A. C. Slop</docAuthor>
-        <lb>Met 62 illustrati&euml;n naar teekeningen van
+        <lb>Met 62 illustratiën naar teekeningen van
         <lb><docAuthor>Th. Schuler</docAuthor>
     </byline>
 
@@ -147,7 +169,7 @@
 
 <p>De kozak Danilo Tsjabane dan, bewoonde met zijn gezin een huis op het platteland.
 
-<p>Danilo had dit huisje ge&euml;rfd: zijn vader, die het van zijn vader gekregen had, die het ook weer van den zijnen had gekregen, had het hem bij zijn overlijden nagelaten. Ik weet niet, hoevele geslachten van de Tsjabanes daarin wel gewoond hadden.
+<p>Danilo had dit huisje geërfd: zijn vader, die het van zijn vader gekregen had, die het ook weer van den zijnen had gekregen, had het hem bij zijn overlijden nagelaten. Ik weet niet, hoevele geslachten van de Tsjabanes daarin wel gewoond hadden.
 
 <p>Het huis was, daar het tusschen een onafzienbare steppe en een uitgestrekt bosch, tusschen een diepe rivier en een grasrijke weide, tusschen een hoogen berg en een frissche vallei stond, prachtig gelegen en mooi gebouwd.
 
@@ -219,7 +241,7 @@
 
 <p>Zijn gezicht was een van die edele, waarop de onverschilligste blikken zich met een plotseling gevoel van achting vestigen. Zijn groote gestalte was sierlijk en lenig. Zijn heele voorkomen verried kalmte en sterkte; maar het meest vielen zijn oogen op, zwarte oogen, die fel schitterden.
 
-<p>Danilo en zijn vrienden waren door dat alles getroffen; maar de Ukraini&euml;rs kunnen hun gewaarwordingen voor zich zelf houden, en zij lieten er dan ook niets van blijken. Zij ontvingen den reiziger, zooals iedere reiziger in een fatsoenlijk huis moet ontvangen worden, met hartelijkheid en voorkomendheid. Men verzocht hem, bij de tafel plaats te nemen, en haastte zich, hem iets aan te bieden.
+<p>Danilo en zijn vrienden waren door dat alles getroffen; maar de Ukrainiërs kunnen hun gewaarwordingen voor zich zelf houden, en zij lieten er dan ook niets van blijken. Zij ontvingen den reiziger, zooals iedere reiziger in een fatsoenlijk huis moet ontvangen worden, met hartelijkheid en voorkomendheid. Men verzocht hem, bij de tafel plaats te nemen, en haastte zich, hem iets aan te bieden.
 
 <p>De reiziger bleek een eenvoudig en beschaafd man te zijn. Omdat hij een onbekende was en bijgevolg geen recht had om zich met de bijzondere belangen van zijn gastheer en diens vrienden te bemoeien, trachtte hij zich niet op den voorgrond te plaatsen. Hij vertelde niet, zooals anderen dit zouden gedaan hebben, zijn avonturen. Hij meende vreemdelingen geen deelgenoot te moeten maken van zijn plannen, als hij die tenminste had. Hij deed geen vragen en antwoordde slechts met weinig woorden. Als hij sprak, dan was het over onderwerpen, die op dit oogenblik allen bezighielden: over de rampen van het land, over de verbrande steden, over de verwoeste velden, die hij op zijn weg had gezien. Danilo en zijn vrienden volgden zijn voorbeeld. Zij vroegen zich waarschijnlijk wel af, waar hij vandaan kwam en waar hij naar toe ging, en ook in welk land hij geboren was; maar omdat hij dat niet zei, vroegen ze &apos;t hem niet. Men merkte wel, dat hij, ofschoon nog jong, veel wist. Hij kende de Turksche zeden, de Poolsche gewoonten, het Russische karakter, de Tartaarsche gebruiken en het scheen, dat de Setsj hem ook niet onbekend was.<note n=1>De Setsj is een eiland in den Dnjepr, waar de Zaporoger kozakken hun legerkamp hadden opgeslagen.</note>
 
@@ -231,7 +253,7 @@
 
 <p>Wat de Ukraine aangaat, het bleek wel, dat hij deze in allerlei richtingen doorkruist had, dat hij de groote steden <pb n=10 id=pb10>zoowel als de dorpen bezocht en er misschien wel gewoond had. Meer dan een had zich ook afgevraagd, hoe hij aan het litteeken kwam, dat hij op z&apos;n linkerwang had, waar hij deze wond had gekregen, die zeker wel door een scherp wapen was toegebracht. Maar dat ging hem alleen aan. Ieder zijn geheimen. Intusschen werd de reiziger, zonder twijfel ingenomen met de gulle ontvangst, die hem ten deel viel, uit zich zelf mededeelzamer. Hij vertelde van de veldslagen, die er onlangs geleverd waren. Het was, alsof men er zelf bij tegenwoordig was. Iedereen luisterde met ingehouden adem naar hem. De mannen, gewoonlijk zoo kalm, raakten in vuur: de vrouwen snikten. De kinderen hingen aan zijn lippen, alsof hij een mooi sprookje vertelde.
 
-<p>Hij had juist een verhaal be&euml;indigd; de stilte woog zwaar, ieder was met z&apos;n eigen gedachten bezig. Plotseling schrikten zij op. Twee schoten klonken in den nacht, gevolgd door meerdere.
+<p>Hij had juist een verhaal beëindigd; de stilte woog zwaar, ieder was met z&apos;n eigen gedachten bezig. Plotseling schrikten zij op. Twee schoten klonken in den nacht, gevolgd door meerdere.
 
 <p>Men luisterde scherp. De schoten kwamen van den kant der steppe. Een langen tijd wachtte men of er misschien nog meer zouden volgen, maar alles was weer stil geworden.
 
@@ -295,7 +317,7 @@
 
 <p>&ldquo;Het ontbreekt in de Ukraine niet aan vastberaden mannen,&rdquo; zei Andry Kroek. &ldquo;In dit opzicht kan ik zeggen, dat geen land ons vaderland overtreft.&rdquo;
 
-<pb n=14 id=pb14><p>&ldquo;Goed geantwoord, Kroek!&rdquo; zeide Danilo. &ldquo;De Polen kunnen er zich op beroemen, dat zij onverschrokken heeren hebben, de Turken schitterende sultans, de Moscoviten slimme en knappe mannen; wat ons betreft, wij kunnen &eacute;&eacute;n ding verklaren, dat tegen al het andere opweegt, en wel dat wij broeders zijn.&rdquo;
+<pb n=14 id=pb14><p>&ldquo;Goed geantwoord, Kroek!&rdquo; zeide Danilo. &ldquo;De Polen kunnen er zich op beroemen, dat zij onverschrokken heeren hebben, de Turken schitterende sultans, de Moscoviten slimme en knappe mannen; wat ons betreft, wij kunnen één ding verklaren, dat tegen al het andere opweegt, en wel dat wij broeders zijn.&rdquo;
 
 <p>&ldquo;Op eenige uitzonderingen na heeft u gelijk,&rdquo; antwoordde de reiziger.
 
@@ -313,7 +335,7 @@
 
 <p>&ldquo;Broeders<corr sic=","></corr>!&rdquo; zei plotseling de reiziger, &ldquo;de inwoners van de Setsj bieden u achting en vriendschap aan. Ik ben hun afgezant. Ik ga naar Tsjigirine.&rdquo;
 
-<p>&ldquo;Wij zijn tot uw orders; wij zijn uw vrienden,&rdquo; zeiden de drie Ukraini&euml;rs als uit &eacute;&eacute;n mond.
+<p>&ldquo;Wij zijn tot uw orders; wij zijn uw vrienden,&rdquo; zeiden de drie Ukrainiërs als uit één mond.
 
 <p>&ldquo;Wat hebben jullie mij te vertellen? Wat weten jullie? Wat valt er hier voor?&rdquo; vroeg de afgezant van de Setsj.
 
@@ -331,7 +353,7 @@
 
 <p>De afgezant begon na te denken, niet over de bezwaren, maar over het middel om zijn doel te bereiken.
 
-<p>&ldquo;Wij, kozakken van de Setsj,&rdquo; zeide hij eindelijk, &ldquo;wij zijn noch voor de Moscoviten, noch voor de Polen. Wij zijn voor de Ukraini&euml;rs. Jullie begrijpen dus wel, dat ik naar Tsjigirine m&ograve;et. Van jullie beide opperhoofden heeft de een zich verkocht, naar men zegt ... maar de ander?&rdquo;
+<p>&ldquo;Wij, kozakken van de Setsj,&rdquo; zeide hij eindelijk, &ldquo;wij zijn noch voor de Moscoviten, noch voor de Polen. Wij zijn voor de Ukrainiërs. Jullie begrijpen dus wel, dat ik naar Tsjigirine mòet. Van jullie beide opperhoofden heeft de een zich verkocht, naar men zegt ... maar de ander?&rdquo;
 
 <p>&ldquo;De ander, de hetman Petro Dorosjenko,&rdquo; zeide Kroek, &ldquo;is een eerlijk man.&rdquo;
 
@@ -573,7 +595,7 @@
 
 <p>Maroessia was, zwijgend als een schim, even na de terugkomst van haar vader verdwenen. Had de blik van dezen, onbegrijpelijk voor ieder ander, haar gezegd, wat zij moest trachten te doen, of had zij zoo uit eigen beweging gehandeld? Zeker is &apos;t, dat zij zonder door iemand opgemerkt te worden, het vertrek had verlaten, en dat zij, na tusschen de soldaten en de paarden, die het huis omsingelden, doorgeslopen te zijn, den tuin bereikt had.
 
-<p>Zoodra het meisje daar gekomen was, bleef zij onder een grooten kerseboom staan en drukte met de hand op haar hart, als wilde zij het beletten te kloppen. Haar hoofd was gloeiend warm. Heete tranen stonden in haar oogen. De wind verkoelde haar voorhoofd en deed haar bedaren. Zij luisterde. Zou men haar vlucht bemerkt hebben? Het verwarde, <pb n=26 id=pb26>maar eentonige gebrom van de stemmen der soldaten drong tot haar door en stelde haar gerust. Ook hoorde zij het geschreeuw en het gelach der officieren, door wie geen enkel bevel tot vervolging gegeven werd. Haar blik rustte nog even op het huis, dat nog alles bevatte, wat zij ooit liefgehad en ge&euml;erd had, toen deed ze een paar stappen voorwaarts. Behoedzaam drong zij in het kreupelhout aan den rechterkant door. Maar ze zag of hoorde niets. Vervolgens ging zij naar den linkerkant, aldoor luisterend, ternauwernood ademhalend. Haar oog bespiedde alle schaduwen; zij doorzocht tot zelfs de meest onwaarschijnlijke hoeken.
+<p>Zoodra het meisje daar gekomen was, bleef zij onder een grooten kerseboom staan en drukte met de hand op haar hart, als wilde zij het beletten te kloppen. Haar hoofd was gloeiend warm. Heete tranen stonden in haar oogen. De wind verkoelde haar voorhoofd en deed haar bedaren. Zij luisterde. Zou men haar vlucht bemerkt hebben? Het verwarde, <pb n=26 id=pb26>maar eentonige gebrom van de stemmen der soldaten drong tot haar door en stelde haar gerust. Ook hoorde zij het geschreeuw en het gelach der officieren, door wie geen enkel bevel tot vervolging gegeven werd. Haar blik rustte nog even op het huis, dat nog alles bevatte, wat zij ooit liefgehad en geëerd had, toen deed ze een paar stappen voorwaarts. Behoedzaam drong zij in het kreupelhout aan den rechterkant door. Maar ze zag of hoorde niets. Vervolgens ging zij naar den linkerkant, aldoor luisterend, ternauwernood ademhalend. Haar oog bespiedde alle schaduwen; zij doorzocht tot zelfs de meest onwaarschijnlijke hoeken.
 
 <p>Eindelijk stond zij stil onder de groote appelboomen en voorzichtig keek zij rond.
 
@@ -640,7 +662,7 @@
 
 <p>&ldquo;Heel graag,&rdquo; antwoordde hij. &ldquo;Maar zou je vader het wel goedvinden, dat ik je voor gids gebruik? Zou hij er later niet boos over zijn?&rdquo;
 
-<p>&ldquo;Nee, dat zeker niet, want vader heeft mij aangekeken, <pb n=31 id=pb31>en ik heb hem begrepen,&rdquo; zei het kind. &ldquo;Zijn oogen zeiden tegen mij: voor h&egrave;m moet je alles verlaten, zelfs ons.&rdquo;
+<p>&ldquo;Nee, dat zeker niet, want vader heeft mij aangekeken, <pb n=31 id=pb31>en ik heb hem begrepen,&rdquo; zei het kind. &ldquo;Zijn oogen zeiden tegen mij: voor hèm moet je alles verlaten, zelfs ons.&rdquo;
 
 <p>&ldquo;Vooruit, dan geef ik mij aan jouw leiding over, beste meid! Je moet mijn gids zijn, en ondertusschen kan je mij je geschiedenis vertellen. Ik luister Maroessia; ik hou veel van roovergeschiedenissen.&rdquo;
 
@@ -702,7 +724,7 @@
 
 <p>&ldquo;Hebt u iets gehoord?&rdquo; vroeg het kind.
 
-<p>De afgezant was op zijn knie&euml;n gaan liggen en hield zijn oor op den grond.
+<p>De afgezant was op zijn knieën gaan liggen en hield zijn oor op den grond.
 
 <p>Toen hij weder opstond, zei hij:
 
@@ -758,7 +780,7 @@
 
 <p>&ldquo;Misschien wel; maar wat doet dat er toe? U moet den afloop weten, om goed te kunnen begrijpen, wat ik bedoel.&rdquo; En ze vervolgde:
 
-<p>&ldquo;De jonge vrouw dacht lang over alles na. V&oacute;&oacute;r alles moest zij uit het verschrikkelijke onderaardsche hol zien te komen. Zij kwam er uit, deed het luik dicht, zette de lantaarn weder op hare plaats, sloot alle deuren goed achter zich dicht en trad meer dood dan levend haar kamer binnen. Zij was veel ongelukkiger sedert haar ontdekking, en toch wilde zij niet meer sterven, maar wel vluchten.&rdquo;
+<p>&ldquo;De jonge vrouw dacht lang over alles na. Vóór alles moest zij uit het verschrikkelijke onderaardsche hol zien te komen. Zij kwam er uit, deed het luik dicht, zette de lantaarn weder op hare plaats, sloot alle deuren goed achter zich dicht en trad meer dood dan levend haar kamer binnen. Zij was veel ongelukkiger sedert haar ontdekking, en toch wilde zij niet meer sterven, maar wel vluchten.&rdquo;
 
 <pb n=36 id=pb36><p>&ldquo;&lsquo;Wat te doen?&rsquo; dacht de jonge vrouw bij zich zelf. Het ondoordringbare bosch omgaf het kasteel aan alle kanten. Men zag er geen enkelen uitgang. Zeker kon zij op het gevaar af, dat zij zich ernstig zou wonden, door het dichte kreupelhout heensluipen. Maar verder? Wie zou zeggen, of zij zich, na een geheelen dag rondgeloopen te hebben, niet weer op de plaats zou bevinden, vanwaar zij was uitgegaan? &lsquo;Wat te doen? Wat te doen?&rsquo; herhaalde zij bij zich zelve.
 
@@ -818,7 +840,7 @@
 
 <p>&ldquo;Toen zij eenigszins van haar schrik bekomen was stond zij op, legde bij den onzichtbaren toegang een witten steen en was verstandig genoeg om naar het kasteel terug te keeren, om er zich van te verzekeren, dat haar man en zijn metgezellen niet wakker waren.
 
-<p>&ldquo;Maar die waren allen in een diepen slaap gedompeld, zooals dit gebeurt met iemand, die veel van zijn krachten gevergd heeft. Op haar teenen voortsluipend, ging zij van deur tot deur, schoof er zonder gedruisch de grendels op en sloot alle luiken. Dit was &eacute;&eacute;n goede voorzorg; maar zij nam nog een andere, die ook te pas kwam, namelijk om de lichte kleederen, die zij altijd droeg, tegen zwarte te verruilen; toen ging zij snel naar de plaats, die door den witten steen aangewezen was. Toen zij die teruggevonden had, ging ze, evenals de eerste maal, tegen de rots aanleunen en opende haar. De hooge steenen deur, die de rots verborg, was zoo <pb n=39 id=pb39>ingericht, dat zij vanzelf dichtging. Nu begon zij te loopen, telkens weer harder.
+<p>&ldquo;Maar die waren allen in een diepen slaap gedompeld, zooals dit gebeurt met iemand, die veel van zijn krachten gevergd heeft. Op haar teenen voortsluipend, ging zij van deur tot deur, schoof er zonder gedruisch de grendels op en sloot alle luiken. Dit was één goede voorzorg; maar zij nam nog een andere, die ook te pas kwam, namelijk om de lichte kleederen, die zij altijd droeg, tegen zwarte te verruilen; toen ging zij snel naar de plaats, die door den witten steen aangewezen was. Toen zij die teruggevonden had, ging ze, evenals de eerste maal, tegen de rots aanleunen en opende haar. De hooge steenen deur, die de rots verborg, was zoo <pb n=39 id=pb39>ingericht, dat zij vanzelf dichtging. Nu begon zij te loopen, telkens weer harder.
 
 <p>&ldquo;Na verloop van een half uur bereikte zij een punt, waarop meer dan tien wegen uitkwamen, die alle in verschillende richtingen liepen.<corr sic="&rdquo;"></corr>
 
@@ -844,7 +866,7 @@
 
 <pb n=40 id=pb40><p>&ldquo;&lsquo;Ze zijn hier vanmorgen langs gekomen,&rsquo; zei ze bij zich zelf, &lsquo;en als dat zoo is, komen zij er waarschijnlijk nu niet meer. Ik moet dien weg kiezen.&rsquo;
 
-<p>&ldquo;Maar voordat ze dien insloeg, kwam de gelukkige gedachte bij haar op, een mooi rood lint, dat zij om haar hals droeg, z&oacute;&oacute; op te hangen aan een tak, die zich over een ander voetpad, dan dat, hetwelk zij wilde inslaan, uitstrekte, dat men het in de verte kon zien. &lsquo;Zij zullen dit lint zien en mij dus vervolgen langs den weg, dien ik niet ingeslagen heb.&rsquo; Dat was niet slecht bedacht, om hen van het spoor af te brengen, niet waar?&rdquo;
+<p>&ldquo;Maar voordat ze dien insloeg, kwam de gelukkige gedachte bij haar op, een mooi rood lint, dat zij om haar hals droeg, zóó op te hangen aan een tak, die zich over een ander voetpad, dan dat, hetwelk zij wilde inslaan, uitstrekte, dat men het in de verte kon zien. &lsquo;Zij zullen dit lint zien en mij dus vervolgen langs den weg, dien ik niet ingeslagen heb.&rsquo; Dat was niet slecht bedacht, om hen van het spoor af te brengen, niet waar?&rdquo;
 
 <p>&ldquo;Het was zeer goed bedacht,&rdquo; zei de afgezant.
 
@@ -912,7 +934,7 @@
 
 <p>&ldquo;De luitenant van haar man, die wel zag, dat alles vruchteloos was, zei toen tegen zijn kapitein:
 
-<p>&ldquo;&lsquo;De tijd, dien wij op deze plek verliezen, is slechts in het voordeel van haar, die wij zoeken. Het dorp is dichtbij, de stad is niet ver verwijderd. Als wij hier een kwartier langer <pb n=44 id=pb44>blijven, zal uw vrouw er v&oacute;&oacute;r ons aankomen, kapitein! En dan is er geen verhelpen meer aan.&rsquo;
+<p>&ldquo;&lsquo;De tijd, dien wij op deze plek verliezen, is slechts in het voordeel van haar, die wij zoeken. Het dorp is dichtbij, de stad is niet ver verwijderd. Als wij hier een kwartier langer <pb n=44 id=pb44>blijven, zal uw vrouw er vóór ons aankomen, kapitein! En dan is er geen verhelpen meer aan.&rsquo;
 
 <p>&ldquo;Bij de gedachte, dat zijn vrouw, die blijkbaar in het bezit van zijn geheim was, hem zou kunnen ontsnappen, en dat zijn levenswijze dan bekend zou worden, kwam er een vloek over de lippen van den kapitein.
 
@@ -1232,7 +1254,7 @@
 
 <p>&ldquo;Nog al...&rdquo;
 
-<p>&ldquo;Wat bedoel je daarmee? Zou men er met den stap, waarmee je ossen loopen, in &eacute;&eacute;n uur of in twee kunnen komen?&rdquo;
+<p>&ldquo;Wat bedoel je daarmee? Zou men er met den stap, waarmee je ossen loopen, in één uur of in twee kunnen komen?&rdquo;
 
 <p>&ldquo;In twee misschien, en mogelijk ook wel in drie.&rdquo;
 
@@ -1336,7 +1358,7 @@
 
 <p>&ldquo;Daar heeft zij gelijk in,&rdquo; voegde de derde er bij. &ldquo;Welke kogel zou voor zoo&apos;n klein ding gevaarlijk kunnen zijn?&rdquo;
 
-<p>&ldquo;Ik ken de Ukraini&euml;rs,&rdquo; hernam de eerstgenoemde; &ldquo;men kan niet zeggen, dat het een volk van hazen is. Zelfs de kleine meisjes uit dit land zijn dapper. Ik heb meer dan eens met mijn eigen oogen gezien, waartoe zij in staat zijn: het <pb n=64 id=pb64>kanon buldert, het geweervuur knettert, het bloed vloeit bij stroomen ... zij komen op het slagveld, zij loopen er moedig over heen, zij rapen er de gekwetsten op, alsof zij in een tuin wandelden en daar rozen plukten!&rdquo;
+<p>&ldquo;Ik ken de Ukrainiërs,&rdquo; hernam de eerstgenoemde; &ldquo;men kan niet zeggen, dat het een volk van hazen is. Zelfs de kleine meisjes uit dit land zijn dapper. Ik heb meer dan eens met mijn eigen oogen gezien, waartoe zij in staat zijn: het <pb n=64 id=pb64>kanon buldert, het geweervuur knettert, het bloed vloeit bij stroomen ... zij komen op het slagveld, zij loopen er moedig over heen, zij rapen er de gekwetsten op, alsof zij in een tuin wandelden en daar rozen plukten!&rdquo;
 
 <p>&ldquo;Zij sterven dan ook bij duizenden!&rdquo; zei een ander.
 
@@ -1372,7 +1394,7 @@
 
 <p>De wagen had zijn afgemeten gang hernomen; Maroessia had zich onder voorwendsel, dat zij vermoeid was, er boven op neergezet, en terwijl zij er opklom, had zij kans gezien om haar kleine hand even aan haar grooten vriend toe te steken, wiens kalme en vertrouwende blik haar uit het gat, dat hij in het hooi gemaakt had, de hare ontmoet had. Dat had hun beiden goed gedaan. Iwan had natuurlijk nergens vermoeden van; hij had haar laten begaan, hij liep naast de ossen, terwijl hij zijn pijp rookte en voor zich keek.
 
-<p>Wat had de oorlog daar gewoed! Tegen &eacute;&eacute;n groen land, dat een rijken oogst beloofde, hadden zij er tien over te rijden, die geheel verwoest waren.
+<p>Wat had de oorlog daar gewoed! Tegen één groen land, dat een rijken oogst beloofde, hadden zij er tien over te rijden, die geheel verwoest waren.
 
 <p>Het geweervuur herhaalde zich met gedurig kortere tusschenpoozen, en de schoten werden al duidelijker en duidelijker hoorbaar.
 
@@ -1439,11 +1461,11 @@
 
 <p>&ldquo;Gelukkig wel!&rdquo; antwoordde de oude boer. &ldquo;Kom binnen, kom binnen, als je honger hebt.&rdquo;
 
-<p>Hij zag er zoo eenvoudig, zoo vriendelijk, zoo na&iuml;ef uit, die oude Kniesj!
+<p>Hij zag er zoo eenvoudig, zoo vriendelijk, zoo naïef uit, die oude Kniesj!
 
 <p>&ldquo;Kom binnen!&rdquo; herhaalde hij. &ldquo;Wat een genoegen! wat een aangename verrassing! Ik houd van alle soldaten... Kom binnen, Mijnheer de soldaat!...&rdquo;
 
-<p>De soldaat, waarmee hij zooveel ophad, was uitgeput van vermoeienis en hongerig als een wolf: hij volgde den ouden boer dan ook, zonder zich verder te laten smeeken, en zoodra hij in de kamer was, ging hij op een bank liggen, geeuwende, de armen uitstrekkende, de beenen uitrekkende, in &eacute;&eacute;n woord, <pb n=70 id=pb70>gebruik makende van het gelukkige toeval, dat hem in staat stelde, aan zijn lichaam, geheel uitgeput door de vermoeienissen van den oorlog, een beetje rust te gunnen.
+<p>De soldaat, waarmee hij zooveel ophad, was uitgeput van vermoeienis en hongerig als een wolf: hij volgde den ouden boer dan ook, zonder zich verder te laten smeeken, en zoodra hij in de kamer was, ging hij op een bank liggen, geeuwende, de armen uitstrekkende, de beenen uitrekkende, in één woord, <pb n=70 id=pb70>gebruik makende van het gelukkige toeval, dat hem in staat stelde, aan zijn lichaam, geheel uitgeput door de vermoeienissen van den oorlog, een beetje rust te gunnen.
 
 <p>Het was duidelijk te zien, dat hij den ouden Kniesj voor een onnoozelen en dommen kerel hield, en dat hij eigenlijk aan niets anders dacht dan aan zijn taartjes: wat de zaak van het hooi aangaat, die zou later wel ter sprake komen.
 
@@ -1812,7 +1834,7 @@
 
 <p>Langzamerhand lagen de stapeltjes koper op een rechte lijn en was de geldbuidel leeg.
 
-<p>Mijnheer Iwan schonk zich een vierde glas in, dronk dit in &eacute;&eacute;n teug leeg, en nadat hij dit gedaan had kwam zijn <pb n=91 id=pb91>uiterlijk aan Kniesj nog woester dan vroeger voor. Op zijn voorhoofd vertoonden zich rimpels, die niets goeds voorspelden. Hij antwoordde met geen enkel woord op de vriendelijke woorden, waarmee de oude boer hem een laatst vaarwel toeriep. Hij bekommerde zich over &apos;t geheel weinig om de beleefdheden van den armen man, maar hij telde met een norschen blik de som, die voor hem bestemd was, stak deze in zijn zak, verliet met haastige stappen het vertrek, zadelde zijn paard, dat rustig haver stond te eten, steeg op, verwaardigde zich, zijn hoofddeksel even op te lichten ter beantwoording van de diepe buigingen van Kniesj, en reed toen in galop weg. Spoedig was hij in de onafzienbare steppe verdwenen.
+<p>Mijnheer Iwan schonk zich een vierde glas in, dronk dit in één teug leeg, en nadat hij dit gedaan had kwam zijn <pb n=91 id=pb91>uiterlijk aan Kniesj nog woester dan vroeger voor. Op zijn voorhoofd vertoonden zich rimpels, die niets goeds voorspelden. Hij antwoordde met geen enkel woord op de vriendelijke woorden, waarmee de oude boer hem een laatst vaarwel toeriep. Hij bekommerde zich over &apos;t geheel weinig om de beleefdheden van den armen man, maar hij telde met een norschen blik de som, die voor hem bestemd was, stak deze in zijn zak, verliet met haastige stappen het vertrek, zadelde zijn paard, dat rustig haver stond te eten, steeg op, verwaardigde zich, zijn hoofddeksel even op te lichten ter beantwoording van de diepe buigingen van Kniesj, en reed toen in galop weg. Spoedig was hij in de onafzienbare steppe verdwenen.
 
 <p>&ldquo;Goede reis!&rdquo; mompelde de oude Kniesj, &ldquo;ik hoop dat ik je nooit meer terugzie.&rdquo;
 
@@ -1979,7 +2001,7 @@
 
 <p>Zijn inlichtingen waren nu juist niet erg geruststellend.
 
-<p>&ldquo;De meeningen zijn nog al uiteenloopend,&rdquo; zei hij; &ldquo;overal <pb n=102 id=pb102>heerscht verdeeldheid, die aan de gemeenschappelijke pogingen schade doet. Men is het niet eens omtrent de middelen, en nog minder omtrent de menschen. De eigenliefde is er bij in &apos;t spel. De vrouwen zijn eigenlijk meer waard dan de mannen. U zult ze overal bereid vinden om goed te doen. &lsquo;De Ukraine aan de Ukraini&euml;rs teruggeven, en dan met elkander twisten, indien men wil, maar niet eer,&rsquo; dat zeggen onze vrouwen tegen ons. En zij hebben volkomen gelijk. Wij hebben twee hetmannen: de een is een groot heer, en de ander een vriend der armen. Zij zijn jaloersch op elkander: het wantrouwen maakt hen tot vijanden. Men zou zeggen, dat zij elkaar wel levend zouden willen verslinden. De Moscoviten, de Polen en de Tartaren stoken dien haat aan, die hun slechts dienstig kan zijn. Gezegend hij, die deze ontketende hartstochten weet te bedwingen!&rdquo;
+<p>&ldquo;De meeningen zijn nog al uiteenloopend,&rdquo; zei hij; &ldquo;overal <pb n=102 id=pb102>heerscht verdeeldheid, die aan de gemeenschappelijke pogingen schade doet. Men is het niet eens omtrent de middelen, en nog minder omtrent de menschen. De eigenliefde is er bij in &apos;t spel. De vrouwen zijn eigenlijk meer waard dan de mannen. U zult ze overal bereid vinden om goed te doen. &lsquo;De Ukraine aan de Ukrainiërs teruggeven, en dan met elkander twisten, indien men wil, maar niet eer,&rsquo; dat zeggen onze vrouwen tegen ons. En zij hebben volkomen gelijk. Wij hebben twee hetmannen: de een is een groot heer, en de ander een vriend der armen. Zij zijn jaloersch op elkander: het wantrouwen maakt hen tot vijanden. Men zou zeggen, dat zij elkaar wel levend zouden willen verslinden. De Moscoviten, de Polen en de Tartaren stoken dien haat aan, die hun slechts dienstig kan zijn. Gezegend hij, die deze ontketende hartstochten weet te bedwingen!&rdquo;
 
 <p>&ldquo;Men zegt, dat onze hetman ongesteld is. Is dat waar?&rdquo;
 
@@ -2031,7 +2053,7 @@
 
 <p>Met deze woorden gaf Kniesj de luit aan de kleine bedelares in handen.
 
-<p>&ldquo;Komaan, het is tijd om te vertrekken,&rdquo; zei hij. &ldquo;Ik zal jullie een eindje vergezellen en v&oacute;&oacute;r het vallen van den avond naar huis terugkeeren.&rdquo;
+<p>&ldquo;Komaan, het is tijd om te vertrekken,&rdquo; zei hij. &ldquo;Ik zal jullie een eindje vergezellen en vóór het vallen van den avond naar huis terugkeeren.&rdquo;
 
 <p>Hij liet hun het onderaardsche gewelf door een anderen uitgang verlaten, die hen op een achterpleintje bracht, waar oude wielen, oude sleden en oude ploegen, die buiten dienst gesteld waren, op een hoop lagen. Wie hen al spoedig daarna den weg langs had zien loopen, zou in hen niet degenen herkend hebben, die zich nog pas geleden in het onderaardsche verblijf ophielden. De oude muzikant was nu niets anders dan een arm man, die door de jaren en de ellende verzwakt was.
 
@@ -2051,7 +2073,7 @@
 
 <p>Tenslotte stonden ze weer op. Voor de laatste maal werden de handen in elkaar gelegd, als een laatst vaarwel sprak ieder van hen dit viertal woorden uit: &ldquo;Alles voor het vaderland!&rdquo;
 
-<p>Zoodra zij afscheid genomen hadden, keerde de een langs denzelfden weg terug, terwijl de beide anderen hun tocht voortzetten. Geen van drie&euml;n keek nog eens om, ten einde een laatsten blik te wisselen.
+<p>Zoodra zij afscheid genomen hadden, keerde de een langs denzelfden weg terug, terwijl de beide anderen hun tocht voortzetten. Geen van drieën keek nog eens om, ten einde een laatsten blik te wisselen.
 
 
 
@@ -2084,7 +2106,7 @@
 
 <p>Al spoedig hielden de gesprekken op; de blikken, die zich in de ledige ruimte verloren, verrieden, dat iedereen de een of andere dierbare herinnering uit het verleden terugriep: den vader of de moeder, het kind of de vrouw, waarvan de oorlog hem gescheiden had. Eenige soldaten, wier hoofden met bebloede verbanden omgeven waren, gingen op hun ellebogen leunen om beter te kunnen hooren. De muzikant bezong het huisgezin, de kindsheid en de jeugd. Dat alles lag zoo ver in het verleden! Men had het aan zijn lied te danken, dat te midden van het legerkamp het huisgezin, waarin men geboren was, voor de oogen opdoemde en aan ieder herinnerd werd, dat de oorlog niet het geheele leven is.
 
-<p>Meer dan &eacute;&eacute;n oog werd vochtig. De bijval, dien de grijsaard vond, was groot, zoo groot, dat, toen hij met zingen opgehouden had, verscheidene handen reeds eenig kleingeld uit hun zak hadden gehaald om hem dit aan te bieden.
+<p>Meer dan één oog werd vochtig. De bijval, dien de grijsaard vond, was groot, zoo groot, dat, toen hij met zingen opgehouden had, verscheidene handen reeds eenig kleingeld uit hun zak hadden gehaald om hem dit aan te bieden.
 
 <p>&ldquo;Kom eens naderbij, kleine tooverheks!&rdquo; riep een ruwe officier uit.
 
@@ -2142,7 +2164,7 @@
 
 <pb n=112 id=pb112><p>&ldquo;Hoor eens!&rdquo; zei de jonge officier. &ldquo;Die zanger heeft toch eigenlijk geen ongelijk, maar waartoe zal zijn les dienen? Het bevel is gegeven, wij moeten dus oprukken.&rdquo;
 
-<p>&ldquo;Waarover hebben zij zich te beklagen?&rdquo; zei een ander. &ldquo;&lsquo;De Ukraine aan de Ukraini&euml;rs!&rsquo; Wat moet deze uitroep beteekenen? Men wil hun Ukraine toch niet opeten. Die lui zijn gek. Is het dan zoo verschrikkelijk, als men niets anders is dan een onbekend mierennest, eindelijk een gedeelte van een groot rijk uit te maken?&rdquo;
+<p>&ldquo;Waarover hebben zij zich te beklagen?&rdquo; zei een ander. &ldquo;&lsquo;De Ukraine aan de Ukrainiërs!&rsquo; Wat moet deze uitroep beteekenen? Men wil hun Ukraine toch niet opeten. Die lui zijn gek. Is het dan zoo verschrikkelijk, als men niets anders is dan een onbekend mierennest, eindelijk een gedeelte van een groot rijk uit te maken?&rdquo;
 
 <p>&ldquo;Laten wij intusschen ons in hun plaats stellen,&rdquo; zei de jonge, blonde officier. &ldquo;Wat zij doen, zouden wij dat niet doen? Het is altijd onaangenaam, met kracht van wapenen overmeesterd te worden, niet waar? Je zult zeggen, dat zij er over honderd jaren niet meer aan zullen denken;&mdash;voor hen, die over honderd jaren zullen leven, is dit zeker waar;&mdash;maar voor hen, wier hutten in brand staan, omdat zij ze hebben willen verdedigen, staat de zaak toch niet gelijk.&rdquo;
 
@@ -2284,7 +2306,7 @@
 
 <p>&ldquo;Waar kom je vandaan?&rdquo; vroeg hij eindelijk.
 
-<p>&ldquo;Van Zaporogi&euml;,&rdquo; antwoordde Tsjetsjewiek. &ldquo;De dapperen van Zaparogi&euml; bieden den grooten hetman hun groeten aan.&rdquo;
+<p>&ldquo;Van Zaporogië,&rdquo; antwoordde Tsjetsjewiek. &ldquo;De dapperen van Zaparogië bieden den grooten hetman hun groeten aan.&rdquo;
 
 <p>&ldquo;In den tijd, waarin wij leven, heeft niemand groeten te doen of te ontvangen,&rdquo; antwoordde de hetman. &ldquo;Kom in mijn kamer!&rdquo;
 
@@ -2479,7 +2501,7 @@
 
 <p>De zon was reeds ondergegaan, maar de schaduwen van den avond waren nog helder; het was een soort van vergulden mist. De jonge boompjes, de struiken en het hooge gras, die &ldquo;het graf&rdquo; bedekten, waren als in een vuurgloed gehuld. Het gebroken kruis teekende zich tegen de lucht af.
 
-<p>Op den top van het heuveltje bleven zij staan om het prachtige uitzicht te bewonderen. Voor hen stroomde met dof geklater de Dnj&eacute;per, terwijl aan den anderen kant boschrijke bergen zich verhieven. Het was een prachtig gezicht en beiden stonden roerloos, getroffen door dit mooie natuurtafreel.
+<p>Op den top van het heuveltje bleven zij staan om het prachtige uitzicht te bewonderen. Voor hen stroomde met dof geklater de Dnjéper, terwijl aan den anderen kant boschrijke bergen zich verhieven. Het was een prachtig gezicht en beiden stonden roerloos, getroffen door dit mooie natuurtafreel.
 
 <p>Eensklaps deed een meeuw haar geschreeuw hooren. Deze meeuw scheen aan den oever der rivier in het riet te zitten.
 
@@ -2497,7 +2519,7 @@
 
 <p>&ldquo;Het is tijd om naar den oever te gaan,&rdquo; Maroessia, zei de groote vriend.
 
-<p>Zonder eerst den gemakkelijksten weg te zoeken,&mdash;men zou in deze woeste plaats trouwens zelfs geen voetpad gevonden hebben,&mdash;liepen zij met haastige schreden naar beneden, liepen om een groote rots heen, die het voorkomen van een reusachtigen groenen gekrulden baard had, z&oacute;&oacute; was zij met planten en gewassen bedekt, en bevonden zich eindelijk aan den oever, dicht bij de rivier.
+<p>Zonder eerst den gemakkelijksten weg te zoeken,&mdash;men zou in deze woeste plaats trouwens zelfs geen voetpad gevonden hebben,&mdash;liepen zij met haastige schreden naar beneden, liepen om een groote rots heen, die het voorkomen van een reusachtigen groenen gekrulden baard had, zóó was zij met planten en gewassen bedekt, en bevonden zich eindelijk aan den oever, dicht bij de rivier.
 
 <p>&ldquo;Ik hoop, dat ik jullie in een goede gezondheid terugvind!&rdquo; zei een welbekende stem.
 
@@ -2529,7 +2551,7 @@
 
 <p>Kniesj had zijn boot in het water geduwd.
 
-<p>&ldquo;Ga jij hier maar zitten, beste meid,&rdquo; zei hij, terwijl hij z&apos;n hand aan Maroessia toestak. Toen zij zat, stapte de Setsj zoo behendig in de boot, dat deze zich bijna niet bewoog. Hij nam een der roeiriemen in handen, en de boot gleed over de sombere wateren tusschen de beide oevers van den Dnj&eacute;per voort.
+<p>&ldquo;Ga jij hier maar zitten, beste meid,&rdquo; zei hij, terwijl hij z&apos;n hand aan Maroessia toestak. Toen zij zat, stapte de Setsj zoo behendig in de boot, dat deze zich bijna niet bewoog. Hij nam een der roeiriemen in handen, en de boot gleed over de sombere wateren tusschen de beide oevers van den Dnjéper voort.
 
 
 
@@ -2548,7 +2570,7 @@
 
 <p>&ldquo;Welke tijdingen hebt u omtrent den anderen hetman?&rdquo;
 
-<p>&ldquo;Alles zal beter afloopen dan je denkt,&rdquo; antwoordde de landbouwer. &ldquo;De fortuin is met de gekken. Men braadt de kippen, men plukt de ganzen, men maakt goede sier. In &eacute;&eacute;n woord, er zijn te veel vreemdelingen, te veel weelde, te veel verteringen. Men ontcijfert de denkbeelden van den heer des huizes niet gemakkelijk, weet ge? Er is misschien niemand...&rdquo;
+<p>&ldquo;Alles zal beter afloopen dan je denkt,&rdquo; antwoordde de landbouwer. &ldquo;De fortuin is met de gekken. Men braadt de kippen, men plukt de ganzen, men maakt goede sier. In één woord, er zijn te veel vreemdelingen, te veel weelde, te veel verteringen. Men ontcijfert de denkbeelden van den heer des huizes niet gemakkelijk, weet ge? Er is misschien niemand...&rdquo;
 
 <p>&ldquo;Dat zou gekker zijn,&rdquo; viel de groote vriend hem in de rede. &ldquo;Dat is het lot van hen, die aan allen toebehooren; zij behooren niet aan zichzelf toe.&rdquo;
 
@@ -2652,7 +2674,7 @@
 
     <p>Een oude nieuwsgierige ekster zat op een half verdorden boom. Zij sloeg al de bewegingen van den kreeft gade en hoorde, hoe hij zich verwonderde.
 
-    <p>&ldquo;Duid het hun niet ten kwade,&rdquo; zei zij tegen hem, &ldquo;dat zij niet roepen: Leve de heldhaftige kreeft! Het is hun schuld niet: zij zijn allen dood. Kijk maar naar hun schalen en graten! Dat is alles, wat er van hen over is... Je moet niet uit het oog verliezen, dat je zeventien jaren besteed hebt om hun het water te brengen, dat zij binnen &eacute;&eacute;n jaar hadden moeten hebben.&rdquo;
+    <p>&ldquo;Duid het hun niet ten kwade,&rdquo; zei zij tegen hem, &ldquo;dat zij niet roepen: Leve de heldhaftige kreeft! Het is hun schuld niet: zij zijn allen dood. Kijk maar naar hun schalen en graten! Dat is alles, wat er van hen over is... Je moet niet uit het oog verliezen, dat je zeventien jaren besteed hebt om hun het water te brengen, dat zij binnen één jaar hadden moeten hebben.&rdquo;
 
     <pb n=141 id=pb141><p>&ldquo;De arme kreeft was zoo getroffen door de juistheid van de woorden, die de ekster gesproken had, dat hij, toen hij de pooten ten teeken van wanhoop ten hemel wilde heffen, de kruik, die hij droeg, vergat en haar liet vallen. De kruik brak in duizend stukken, de droge aarde slurpte in een oogwenk het water op, dat zij bevatte, en den volgenden dag was de kreeft ook dood.&rdquo;
     </body></text></q>
@@ -2672,7 +2694,7 @@
 
 <p>De oude Kniesj was al weer in de boot gestapt. Hij hielp er Maroessia in, en haar groote vriend sprong er weer met de lichtheid van een vogel in.
 
-<p>De kleine boot van den oever afgeduwd, gleed opnieuw over de sombere golven van den Dnj&eacute;per, en de zandige kaap met de onbestemde omtrekken der beide mannen, die zij daarop achterlieten, verdween al spoedig te midden van den nevel.
+<p>De kleine boot van den oever afgeduwd, gleed opnieuw over de sombere golven van den Dnjéper, en de zandige kaap met de onbestemde omtrekken der beide mannen, die zij daarop achterlieten, verdween al spoedig te midden van den nevel.
 
 <p>Toen zij aan land stapten, wees Kniesj aan Tsjetsjewiek een mooi en sterk zwart paard.
 
@@ -2693,7 +2715,7 @@
 </figure>
 
 
-<p>Twee dagen na het tochtje op den Dnj&eacute;per, dat wij in het vorige hoofdstuk beschreven hebben, was het Zondag, en de zware klokken der stad Gadiatsj, de residentie van den hetman, die door Zijne Majesteit den tsaar van Rusland begunstigd werd, deden haar plechtig gelui hooren en noodigden de geloovigen tot de bijwoning der vroegmissen.
+<p>Twee dagen na het tochtje op den Dnjéper, dat wij in het vorige hoofdstuk beschreven hebben, was het Zondag, en de zware klokken der stad Gadiatsj, de residentie van den hetman, die door Zijne Majesteit den tsaar van Rusland begunstigd werd, deden haar plechtig gelui hooren en noodigden de geloovigen tot de bijwoning der vroegmissen.
 
 <p>De dag was nog nauwelijks aangebroken, en de stad Gadiatsj met al haar nauwe en kromme straten, haar lage gebouwen en haar lommerrijke tuinen, scheen in een half doorzichtigen sluier gehuld te zijn. De menschen, die van alle kanten toestroomden en zich naar de kathedraal begaven, schenen in een donker waas gehuld te zijn.
 
@@ -2765,7 +2787,7 @@
 
 <p>&ldquo;Vergeef het mij!&rdquo; zei de zanger. &ldquo;Ik heb, zooals ik zie, uw heilige gelasterd, maar zij heeft er niets bij verloren. Ik heb u daardoor tenminste in de gelegenheid gesteld, haar hulde te bewijzen... Zoudt u mij ook kunnen zeggen, jongeman, wie die prachtig gekleede heeren zijn, die men overal in de stad ontmoet? Zouden zij ook heiligen zijn?&rdquo;
 
-<p>&ldquo;Heiligen! Wel zeker niet. Het zijn vorsten, Moscovitische prinsen. Kunt u dat niet zien aan hun deftigen gang, aan hun oogen, die zij maar half opendoen en aan hun verachtelijk <pb n=148 id=pb148>opgetrokken neuzen? Het zijn de gasten van onzen hetman. Acht dagen geleden was zijn huis er z&oacute;&oacute; vol van, dat de vrienden van de Ukraine er zich ongerust over maakten. Maar, dank zij den invloed van Mefodijewna op haar zuster en op haar schoonbroer, den hetman, zijn er, naar men zegt, al heel wat van hen vertrokken.&rdquo;
+<p>&ldquo;Heiligen! Wel zeker niet. Het zijn vorsten, Moscovitische prinsen. Kunt u dat niet zien aan hun deftigen gang, aan hun oogen, die zij maar half opendoen en aan hun verachtelijk <pb n=148 id=pb148>opgetrokken neuzen? Het zijn de gasten van onzen hetman. Acht dagen geleden was zijn huis er zóó vol van, dat de vrienden van de Ukraine er zich ongerust over maakten. Maar, dank zij den invloed van Mefodijewna op haar zuster en op haar schoonbroer, den hetman, zijn er, naar men zegt, al heel wat van hen vertrokken.&rdquo;
 
 <p>&ldquo;Vertrokken! En waarom? Hinderden die trotsche menschen dan iemand?&rdquo;
 
@@ -2773,9 +2795,9 @@
 
 <p>&ldquo;Om de waarheid te zeggen,&rdquo; verzekerde een nieuwe spreker, &ldquo;vermaakt men zich sedert acht dagen minder in het paleis. De hetman tracht zijn gasten niet meer bij zich te houden. Hij schijnt zich te midden van hen niet op zijn gemak te gevoelen, en men zegt, dat er weldra geen enkele meer in het land zal overblijven.&rdquo;
 
-<p>Er ontstond plotseling een diep stilzwijgen. Men zag vader Mika&iuml;l de straat langzaam doorloopen en naar de kerkdeur toe gaan. Zij, die zaten, stonden op. Zij, die reeds overeind waren, gingen op hun teenen staan.
+<p>Er ontstond plotseling een diep stilzwijgen. Men zag vader Mikaïl de straat langzaam doorloopen en naar de kerkdeur toe gaan. Zij, die zaten, stonden op. Zij, die reeds overeind waren, gingen op hun teenen staan.
 
-<p>Vader Mika&iuml;l vertoonde in geheel zijn persoon het beeld van den goeden herder. Zijn gemeenteleden vereerden hem hoog. Men trachtte in het voorbijgaan zijn zegen te ontvangen. Men zag aan zijn geheele houding, dat het niet alleen zijn hand was, welke dien zegen gaf, maar dat deze uit zijn hart kwam.
+<p>Vader Mikaïl vertoonde in geheel zijn persoon het beeld van den goeden herder. Zijn gemeenteleden vereerden hem hoog. Men trachtte in het voorbijgaan zijn zegen te ontvangen. Men zag aan zijn geheele houding, dat het niet alleen zijn hand was, welke dien zegen gaf, maar dat deze uit zijn hart kwam.
 
 <p>De zanger naderde den geestelijke insgelijks, terwijl hij Maroessia bij de hand hield.
 
@@ -2785,7 +2807,7 @@
 
 <pb n=149 id=pb149><p>&ldquo;Vader,&rdquo; zei de zanger, &ldquo;ik heb ingezien, dat het grootste vuur te midden der woestijn moet uitgaan, terwijl het groene hout brandt, wanneer het te midden van den haard valt; en ik ben de woestijn ontvlucht uit behoefte om menschen te zien en weer te vinden.&rdquo;
 
-<p>Toen vader Mika&iuml;l deze woorden hoorde, huiverde hij. Zijn heldere, vriendelijke oogen vestigden zich met bijzondere aandacht op den ouden pelgrim.
+<p>Toen vader Mikaïl deze woorden hoorde, huiverde hij. Zijn heldere, vriendelijke oogen vestigden zich met bijzondere aandacht op den ouden pelgrim.
 
 <p>Hij knikte ten bewijze van instemming met de woorden van den grijsaard en zei tegen hem:
 
@@ -2797,7 +2819,7 @@
 
 <p>&ldquo;Staat ons koren nog te velde?&rdquo; vroeg hij aan den zanger.
 
-<p>Vader Mika&iuml;l deed deze vraag langzaam, terwijl hij op ieder woord drukte, ofschoon de vraag zelf toch zoo eenvoudig was.
+<p>Vader Mikaïl deed deze vraag langzaam, terwijl hij op ieder woord drukte, ofschoon de vraag zelf toch zoo eenvoudig was.
 
 <p>&ldquo;Ons koren,&rdquo; antwoordde de zanger, &ldquo;ligt in eenige streken reeds op den grond, en het zijn niet altijd de eigenaars, die het afgemaaid hebben. Wat het andere betreft, en ik spreek van dat der beste velden, ofschoon het overal nog niet geheel rijp is, geloof ik toch, dat het verstandig zou wezen, niet met de inzameling te wachten. Wie kan de stormen van morgen vooruitzien? Het koren, dat rijp is, staat prachtig, mijn vader!&rdquo;
 
@@ -2805,7 +2827,7 @@
 
 <p>&ldquo;Onze hetman! Onze hetman!&rdquo; riep men eensklaps van alle kanten.
 
-<pb n=150 id=pb150><p>Vader Mika&iuml;l trad de kerk binnen.
+<pb n=150 id=pb150><p>Vader Mikaïl trad de kerk binnen.
 
 <p>&ldquo;Onze hetman ziet er vandaag niet bijzonder vroolijk uit,&rdquo; merkte iemand onder de menigte op.
 
@@ -2847,7 +2869,7 @@
 
 <p>Zij gaf met de hand, bij wijze van liefkoozing, een zacht tikje op de wang van Maroessia en verdween, te midden der menigte, in de kerk.
 
-<p>Men hoorde reeds de stem van vader Mika&iuml;l, die den dienst begon.
+<p>Men hoorde reeds de stem van vader Mikaïl, die den dienst begon.
 
 
 <pb n=153 id=pb153><figure id=p153>
@@ -2867,7 +2889,7 @@
 </figure>
 
 
-<p>De dienst was ge&euml;indigd. De groote hetman was in zijn paleis teruggekomen. De warmte was drukkend, de zon verblindde door haar licht.
+<p>De dienst was geëindigd. De groote hetman was in zijn paleis teruggekomen. De warmte was drukkend, de zon verblindde door haar licht.
 
 <p>Eenige zwarte wolken die van het westen kwamen, vertoonden zich aan den gezichteinder.
 
@@ -2941,7 +2963,7 @@
 
 <p>Mefodijewna vestigde, hoe verre zij ook verwijderd mocht zijn, zoo&apos;n fellen blik op den hoveling, dat deze de oogen neersloeg, terwijl een vluchtige blos zich op zijn gelaat vertoonde.
 
-<p>&ldquo;Je luit is een zonderling iets,&rdquo; zei de Russische heer tegen den zanger, om het gesprek op iets anders te brengen. &ldquo;Het is geen gewoon instrument. Weet je dat wel? Welnu, tracht het lied van den bandiet te leeren: het is echte po&euml;zie! Je hebt daar waarlijk een zeer mooie luit! Ik zou haar wel eens meer van nabij willen bezien. Geef haar mij eens, oudje.&rdquo;
+<p>&ldquo;Je luit is een zonderling iets,&rdquo; zei de Russische heer tegen den zanger, om het gesprek op iets anders te brengen. &ldquo;Het is geen gewoon instrument. Weet je dat wel? Welnu, tracht het lied van den bandiet te leeren: het is echte poëzie! Je hebt daar waarlijk een zeer mooie luit! Ik zou haar wel eens meer van nabij willen bezien. Geef haar mij eens, oudje.&rdquo;
 
 <p>&ldquo;Daar hebt ge haar, Excellentie,&rdquo; antwoordde de oude zanger, terwijl hij hem het bewuste instrument aanbood. &ldquo;Bekijk het goed, onderzoek het, en u zult zien, dat het een ware schat is.&rdquo;
 
@@ -2991,7 +3013,7 @@
 
 <p>&ldquo;Verkoop hem aan mij; het geld maakt alles goed.&rdquo;
 
-<p>&ldquo;Alles?&rdquo; antwoordde de oude Ukraini&euml;r, terwijl hij zijn kalmte trachtte te bewaren. &ldquo;Wat? Zelfs de eer? Zelfs de vrijheid?&rdquo;
+<p>&ldquo;Alles?&rdquo; antwoordde de oude Ukrainiër, terwijl hij zijn kalmte trachtte te bewaren. &ldquo;Wat? Zelfs de eer? Zelfs de vrijheid?&rdquo;
 
 <p>&ldquo;Nu ja!&rdquo; riep de adellijke heer uit, &ldquo;zelfs wat jij eer noemt en wat lieden van jou slag vrijheid noemen!&rdquo;
 
@@ -3049,7 +3071,7 @@
 </figure>
 
 
-<p>Gedurende meer dan een jaar kon de Ukraine gelooven, dat zij voor immer vrij zou worden. Als &eacute;&eacute;n man was het geheele land opgestaan. De overweldigers, over een zoo plotselingen, zoo algemeenen, zoo vrijwilligen opstand verwonderd, waren verdwenen. Iedereen had zijn land, zijn hut, zijn landhoeve of zijn huis hernomen, heroverd. Meer nog, iedereen had zijn oogst nog eens kunnen binnenhalen. Voet voor voet, van meer tot rivier, van steppe tot bosch, had de vijand moeten terugwijken. De hetman van Tsjigirine was, na de stad heldhaftig verdedigd en gered te hebben, na wonderen van dapperheid te hebben verricht, gesneuveld, maar gesneuveld als een held, tevreden gestorven, te midden der zegepraal. Een man, tot dusverre onbekend, Tsjetsjewiek, de <pb n=165 id=pb165>leeuw, zooals men hem weldra algemeen genoemd had, streed aan zijn zijde te midden van het krijgsgewoel, waarin hij bezweken was. De onverschrokken leeuw had het lijk van zijn opperhoofd, met wonden bedekt, aan den vijand ontrukt en zich in zijn plaats aan het hoofd der beweging gesteld.
+<p>Gedurende meer dan een jaar kon de Ukraine gelooven, dat zij voor immer vrij zou worden. Als één man was het geheele land opgestaan. De overweldigers, over een zoo plotselingen, zoo algemeenen, zoo vrijwilligen opstand verwonderd, waren verdwenen. Iedereen had zijn land, zijn hut, zijn landhoeve of zijn huis hernomen, heroverd. Meer nog, iedereen had zijn oogst nog eens kunnen binnenhalen. Voet voor voet, van meer tot rivier, van steppe tot bosch, had de vijand moeten terugwijken. De hetman van Tsjigirine was, na de stad heldhaftig verdedigd en gered te hebben, na wonderen van dapperheid te hebben verricht, gesneuveld, maar gesneuveld als een held, tevreden gestorven, te midden der zegepraal. Een man, tot dusverre onbekend, Tsjetsjewiek, de <pb n=165 id=pb165>leeuw, zooals men hem weldra algemeen genoemd had, streed aan zijn zijde te midden van het krijgsgewoel, waarin hij bezweken was. De onverschrokken leeuw had het lijk van zijn opperhoofd, met wonden bedekt, aan den vijand ontrukt en zich in zijn plaats aan het hoofd der beweging gesteld.
 
 <p>Van den kant van Gadiatsj had de andere hetman, als opperhoofd erkend, zijn vroegere dapperheid teruggekregen. Men had dikwijls aan zijn rechterhand een beeldschoone amazone gezien, die wel is waar geen bevelen gaf, maar die zich altijd te midden van de hevigste gevechten vertoonde, en wier tegenwoordigheid de macht had om aller geestdrift op te wekken, aller moed aan te vuren. Zij werd overal gevolgd door een soort van kleinen onverschrokken page, die haar tot vaandeldrager diende, en die, op een vurig zwart paard gezeten, zijn vlag met een dappere hand liet wapperen te midden der kogels, zonder zich om het gevaar te bekommeren. De soldaten aanbaden dit kleine soldaatje, dat schoon was als een engel. Was het inderdaad een engel of slechts een kind of, zooals sommigen beweerden, een eenvoudig dorpsmeisje, dat door een goddelijke vlam, een bovenmenschelijken moed bezield werd, en dat niets kon doen terugdeinzen? De page was alles te gelijk. Alles was waar; want het was Maroessia. Het was een tweede Jeanne d&apos;Arc in een land, waar de naam van Jeanne d&apos;Arc zeker nooit was uitgesproken. Daar Tsjetsjewiek genoodzaakt was om overal te gelijk te zijn, had hij haar aan de zorg van Mefodijewna toevertrouwd. Zij waren onafscheidelijk: wie de eene zag, zag ook de andere. Overigens mengden alle vrouwen zich in den strijd; het was werkelijk een heilige oorlog. De Russen zelf konden hun bewondering over die krachtige poging tot verkrijging der vrijheid niet onthouden.
 
@@ -3096,7 +3118,7 @@
 </figure>
 
 
-<p>Vier dagen daarna was de slede teruggekomen. Maroessia, met een hart vol van de vreugde, die zij verschaft en genoten had, Maroessia, gezegend door haar vader en haar moeder, met liefkoozingen overladen door haar broertjes, verheerlijkt door alle buren, ge&euml;erd door al de vrienden van haar vader en door de onbekenden zelf, die wisten, dat zij, al was zij nog maar een klein meisje, tusschen den Leeuw en de schoone Mefodijewna, een grooten dienst aan de Ukraine bewezen had,&mdash;Maroessia had haar plaats bij haar groote vriendin weer ingenomen. Zij had op dezen tocht haar moed vernieuwd. Het spreekwoord heeft wel gelijk, als het zegt: Het vaderlijk huis is een volle beker voor het dorstige kind.
+<p>Vier dagen daarna was de slede teruggekomen. Maroessia, met een hart vol van de vreugde, die zij verschaft en genoten had, Maroessia, gezegend door haar vader en haar moeder, met liefkoozingen overladen door haar broertjes, verheerlijkt door alle buren, geëerd door al de vrienden van haar vader en door de onbekenden zelf, die wisten, dat zij, al was zij nog maar een klein meisje, tusschen den Leeuw en de schoone Mefodijewna, een grooten dienst aan de Ukraine bewezen had,&mdash;Maroessia had haar plaats bij haar groote vriendin weer ingenomen. Zij had op dezen tocht haar moed vernieuwd. Het spreekwoord heeft wel gelijk, als het zegt: Het vaderlijk huis is een volle beker voor het dorstige kind.
 
 <milestone unit=tb>
 
@@ -3107,7 +3129,7 @@
 
 <p>Waarom kunnen wij het hier niet bij laten? Waarom moeten wij de geschiedenis in haar bittere werkelijkheid volgen? Waarom zijn wij verplicht, alles te zeggen, tot aan het besluit voort te gaan en na het schitterende begin het treurige einde te verhalen?
 
-<p>De leeuw Tsjetsjewiek had, na alles gereedgemaakt te hebben, kunnen gelooven, dat in het tweede jaar zijn pogingen met succes bekroond zouden worden. Iedereen geloofde dit, meer dan hij zelf. Men verzekerde zelfs, dat er bij de beraadslagingen van den vijand meer dan eens sprake van was geweest, aan dezen dappere onder al de dapperen, aan dezen edelmoedige onder al de edelmoedigen, een vrede, een eervolle schikking aan te bieden, aannemelijk zoowel voor de Ukraine als voor hem zelf. Men zou dien jeugdigen held tot vriend, tot bondgenoot hebben willen hebben; men zou daarginds gewild hebben, dat hij aan geheel Rusland toebehoorde. <pb n=171 id=pb171>Iedereen vertelde over zijn heldendaden. Wat was hij schoon en verschrikkelijk te midden der veldslagen, maar wat was hij, zoodra de strijd ge&euml;indigd was, medelijdend en zacht!
+<p>De leeuw Tsjetsjewiek had, na alles gereedgemaakt te hebben, kunnen gelooven, dat in het tweede jaar zijn pogingen met succes bekroond zouden worden. Iedereen geloofde dit, meer dan hij zelf. Men verzekerde zelfs, dat er bij de beraadslagingen van den vijand meer dan eens sprake van was geweest, aan dezen dappere onder al de dapperen, aan dezen edelmoedige onder al de edelmoedigen, een vrede, een eervolle schikking aan te bieden, aannemelijk zoowel voor de Ukraine als voor hem zelf. Men zou dien jeugdigen held tot vriend, tot bondgenoot hebben willen hebben; men zou daarginds gewild hebben, dat hij aan geheel Rusland toebehoorde. <pb n=171 id=pb171>Iedereen vertelde over zijn heldendaden. Wat was hij schoon en verschrikkelijk te midden der veldslagen, maar wat was hij, zoodra de strijd geëindigd was, medelijdend en zacht!
 
 
 <p><figure id=p171>
@@ -3119,7 +3141,7 @@
 
 <p>Maar waar zijn wij thans? Helaas! herinner u het duistere begin, de nachtelijke tochten, de geheime samenzweringen,&mdash;daar zijn wij nu weer aan toe! Ja, dat alles zal weder beginnen.
 
-<p>De machtige vijand heeft intusschen zijn tijd wel besteed. Hij is in ontzaglijken getale teruggekomen. Zij weten maar al te goed, zij hebben geleerd, en gezien dat er met de Ukrani&euml;rs niet te spotten valt. Daarom zullen zij al hun troepen op de been brengen en door overmacht dat kleine dappere volk trachten te overwinnen.
+<p>De machtige vijand heeft intusschen zijn tijd wel besteed. Hij is in ontzaglijken getale teruggekomen. Zij weten maar al te goed, zij hebben geleerd, en gezien dat er met de Ukraniërs niet te spotten valt. Daarom zullen zij al hun troepen op de been brengen en door overmacht dat kleine dappere volk trachten te overwinnen.
 
 
 
@@ -3291,7 +3313,7 @@
 
 <p>Maroessia boog zich voorover, om het geluid van zijn voetstappen des te langer te hooren. Zoolang zij hem kon hooren, verbeeldde zij zich, dat hij nog bij haar was. Maar weldra hield het gekraak van takken en het geritsel van bladeren geheel op. Maroessia liet haar beide kransen vallen, haar lief kopje boog zich voorover en, zonder het te weten, begon zij na te denken, ja, na te denken.
 
-<p>Zij had zooveel schitterende dingen gezien, zij had zooveel geheimzinnige en zooveel verschrikkelijke gebeurtenissen meegemaakt, en de laatste waren zoo treurig! De verdedigers van de Ukraine, eerst zoo beroemd, daar alles voor hen week, waren verslagen en daarna verstrooid. &ldquo;Ik geloof wel,&rdquo; zei ze bij zich zelf, &ldquo;dat mijn vriend een laatste poging wil wagen. <pb n=183 id=pb183>Het is misschien wel een wanhopige poging, maar toch zal hij haar doen!&rdquo; Zij had gedurende dien langdurigen tocht wel gevoeld, dat ieder van hun schreden een gevaar verborg. Welnu, wat zou dat? Konden haar groote vriend en zij, de waarachtige Ukraini&euml;rs, de Ukraine wel overleven? Is het niet beter, te verdwijnen met hetgeen men liefheeft?
+<p>Zij had zooveel schitterende dingen gezien, zij had zooveel geheimzinnige en zooveel verschrikkelijke gebeurtenissen meegemaakt, en de laatste waren zoo treurig! De verdedigers van de Ukraine, eerst zoo beroemd, daar alles voor hen week, waren verslagen en daarna verstrooid. &ldquo;Ik geloof wel,&rdquo; zei ze bij zich zelf, &ldquo;dat mijn vriend een laatste poging wil wagen. <pb n=183 id=pb183>Het is misschien wel een wanhopige poging, maar toch zal hij haar doen!&rdquo; Zij had gedurende dien langdurigen tocht wel gevoeld, dat ieder van hun schreden een gevaar verborg. Welnu, wat zou dat? Konden haar groote vriend en zij, de waarachtige Ukrainiërs, de Ukraine wel overleven? Is het niet beter, te verdwijnen met hetgeen men liefheeft?
 
 <p>Zij pijnigde zich het hoofd af, om er zich een verklaring van te geven, dat de menschen, in plaats van elkander lief te hebben, wat haar zoo gemakkelijk toescheen, hun best deden om elkander kwaad te doen. &ldquo;Zocht vader dan twist met zijn buren? Is hij ooit op de gedachte gekomen, het land en het huis van een ander te nemen, hoewel hij er een paar heel mooi vond? Waarom wil men ons van onze Ukraine berooven? Zij is vruchtbaar, zij is het rijkste land van de aarde: is dat een reden om diegenen daaruit te verdrijven, aan wie zij toebehoort?&rdquo;
 
@@ -3433,12 +3455,12 @@
 </figure>
 
 
-<p>Hij had slechts &eacute;&eacute;n arm, daar hij den anderen verloren had in het laatste gevecht, dat er voor de onafhankelijkheid van de Ukraine geleverd werd; en met de eenige hand, die hem overbleef, de aarde hand voor hand aandragende, heeft hij dezen heuvel opgeworpen. Hij had er vele jaren aan besteed. Nog op jeugdigen leeftijd was hij er mee begonnen, zijn baard en zijn haar waren grijs geworden, toen hij het <pb n=194 id=pb194>voltooide. Intusschen zeggen sommigen, dat een kleine jongen, Taras genaamd, hem zoolang, zoolang had gebeden en gesmeekt, totdat hij zijn hulp had aangenomen, en dat op den langen duur ook deze jongen bij dit werk oud geworden was. De legende zegt verder, dat, toen de Koergane hoog genoeg was, en toen het kruis er op was geplaatst, de kozak zich aan den voet daarvan neerzette en er tot aan zijn dood weende. V&oacute;&oacute;r dien dag had niemand een leeuw tranen zien storten. Het zijn de tranen, die er aan zijn oogen ontvloeiden, welke deze zoo mooie en geurige bloemen deden ontluiken, die vroeger nooit in eenig deel van de wereld hadden gebloeid. Zij, die de taal der bloemen weten te verstaan, verzekeren, dat men ze op avonden, als het volle maan is, kan hooren fluisteren: &ldquo;Wij kunnen nergens anders bloeien dan op het graf van hen, die hun leven voor het vaderland hebben gegeven.&rdquo; De kinderen, jongens en meisjes, vergezeld van hun ouders, komen alle jaren uit alle deelen van het land, om een bedevaart te doen naar het graf van het kleine meisje. Ieder hecht er zijn bloemkrans aan. Zij brengen er portretten heen, medailles, ter eere van Maroessia geslagen.
+<p>Hij had slechts één arm, daar hij den anderen verloren had in het laatste gevecht, dat er voor de onafhankelijkheid van de Ukraine geleverd werd; en met de eenige hand, die hem overbleef, de aarde hand voor hand aandragende, heeft hij dezen heuvel opgeworpen. Hij had er vele jaren aan besteed. Nog op jeugdigen leeftijd was hij er mee begonnen, zijn baard en zijn haar waren grijs geworden, toen hij het <pb n=194 id=pb194>voltooide. Intusschen zeggen sommigen, dat een kleine jongen, Taras genaamd, hem zoolang, zoolang had gebeden en gesmeekt, totdat hij zijn hulp had aangenomen, en dat op den langen duur ook deze jongen bij dit werk oud geworden was. De legende zegt verder, dat, toen de Koergane hoog genoeg was, en toen het kruis er op was geplaatst, de kozak zich aan den voet daarvan neerzette en er tot aan zijn dood weende. Vóór dien dag had niemand een leeuw tranen zien storten. Het zijn de tranen, die er aan zijn oogen ontvloeiden, welke deze zoo mooie en geurige bloemen deden ontluiken, die vroeger nooit in eenig deel van de wereld hadden gebloeid. Zij, die de taal der bloemen weten te verstaan, verzekeren, dat men ze op avonden, als het volle maan is, kan hooren fluisteren: &ldquo;Wij kunnen nergens anders bloeien dan op het graf van hen, die hun leven voor het vaderland hebben gegeven.&rdquo; De kinderen, jongens en meisjes, vergezeld van hun ouders, komen alle jaren uit alle deelen van het land, om een bedevaart te doen naar het graf van het kleine meisje. Ieder hecht er zijn bloemkrans aan. Zij brengen er portretten heen, medailles, ter eere van Maroessia geslagen.
 
 <p>En er is er geen, die niet Maroessia had willen zijn...
 
 
-<trailer><hi rend=sc>Einde.</hi></trailer>
+<trailer rend="align(center)"><hi rend=sc>Einde.</hi></trailer>
 
 
 
@@ -3478,7 +3500,7 @@
 
 
 <pb n=196 id=pb196>
-<div1 id=ads type=Advertisements>
+<div1 id=ads type=Advertisement>
 <head>Uitgaven van firma D. Bolle te Rotterdam</head>
 
 
@@ -3496,9 +3518,9 @@
 
 <p>1. <hi rend=bold>Prachtuitgave</hi>, met 8 kunstdrukplaten, ingenaaid slechts <hi rend=bold>&florin;&nbsp;1.80</hi>, in rijken prachtband <hi rend=bold>&florin;&nbsp;2.90</hi>.
 
-<p>2. <hi rend=bold>Volledige volksuitgave</hi>, met 21 nieuwe illustrati&euml;n naar teekeningen van J. C. Nijland, ingenaaid slechts <hi rend=bold>&florin;&nbsp;1.20</hi>, in royalen prachtband <hi rend=bold>&florin;&nbsp;1.90</hi>.
+<p>2. <hi rend=bold>Volledige volksuitgave</hi>, met 21 nieuwe illustratiën naar teekeningen van J. C. Nijland, ingenaaid slechts <hi rend=bold>&florin;&nbsp;1.20</hi>, in royalen prachtband <hi rend=bold>&florin;&nbsp;1.90</hi>.
 
-<p>3. <hi rend=bold>Verkorte jeugduitgave</hi>, speciaal bestemd voor kinderen beneden 12 jaar, met talrijke illustrati&euml;n, ingenaaid slechts <hi rend=bold>&florin;&nbsp;0.90</hi>, in prachtband slechts <hi rend=bold>&florin;&nbsp;1.50</hi>.
+<p>3. <hi rend=bold>Verkorte jeugduitgave</hi>, speciaal bestemd voor kinderen beneden 12 jaar, met talrijke illustratiën, ingenaaid slechts <hi rend=bold>&florin;&nbsp;0.90</hi>, in prachtband slechts <hi rend=bold>&florin;&nbsp;1.50</hi>.
 
 
 
